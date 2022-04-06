@@ -29,11 +29,44 @@
     
 }
 
-
-
 .text-center a{
     color: black;
     text-decoration: none;
+}
+
+.rodape-container h2:hover{
+    color: gold;
+}
+.caixa input{
+    border-radius: 7pt;
+    width: 70%;
+    border-style: outset;
+    border-width: 4pt;
+    border-color:lightskyblue;
+}
+input:focus{
+    background-color: lightblue;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 4pt;
+    outline: none;
+    
+}
+.caixa button{          
+        
+        border-radius: 7pt;
+        border-style: outset;
+        border-color:lightskyblue;
+        border-width: 4pt;
+        background-color: lightblue;
+}
+.caixa button:hover{
+    background-color: gold;
+}
+.caixa button:focus,
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 0 darkblue;
 }
 
 @media screen and (max-width: 1200px){
