@@ -10,11 +10,13 @@
         "Cadastrar",
         "caixa",
         "carregar",
+        "CODPS",
         "Conecte",
         "conosco",
         "contato",
         "direitos",
         "enviar",
+        "imagem",
         "inicio",
         "jogos",
         "lista",
@@ -32,6 +34,7 @@
         "Sobre",
         "sociais",
         "Televendas",
+        "titulo",
         "Todos"
     ]
 }
