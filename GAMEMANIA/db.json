@@ -1,0 +1,34 @@
+{
+  "jogos": [
+    {
+      "id": 1,
+      "imagem": "assets\img\NFL.png",
+      "titulo": "R$ 182,OO à vista ou em 5X"
+    },
+    {
+      "id": 2,
+      "imagem": "assets\img\CODPS4.png",
+      "titulo": "R$ 182,OO à vista ou em 5X"
+    },
+    {
+      "id": 3,
+      "imagem": "assets\img\SPIDERMAN.png",
+      "titulo": "R$ 182,OO à vista ou em 5X"
+    },
+    {
+      "id": 4,
+      "imagem": "assets\img\NBA.png",
+      "titulo": "R$ 182,OO à vista ou em 5X"
+    },
+    {
+      "id": 5,
+      "imagem": "assets\img\CODPS5.png",
+      "titulo": "R$ 182,OO à vista ou em 5X"
+    },
+    {
+      "id": 6,
+      "imagem": "assets\img\HALO.png",
+      "titulo": "R$ 182,OO à vista ou em 5X"
+    }
+  ]
+}

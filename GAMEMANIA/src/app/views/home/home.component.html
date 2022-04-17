@@ -59,30 +59,30 @@
 
     <section class="secao-games container">
 
-            <div class="games-container">
+            <div *ngFor="let jogos of listaJogos" class=games-container">
 
-                <a href=""><img src="assets/img/NFL.png">
-                    <p>R$ 182,00 à vista<br> ou em 5X
+                <img [src]=jogo.imagem alt="NFL">
+                    <p>{{jogo.titulo}}R$ 182,00 à vista<br> ou em 5X
                     </p>
                 </a>
-                <a href=""><img src="assets/img/CODPS4.png">
-                    <p>R$ 195,00 à vista<br> ou em 5X
+                <img [src]=jogo.imagem alt=CODPS4">
+                    <p>{{jogo.titulo}}R$ 195,00 à vista<br> ou em 5X
                     </p>
                 </a>
-                <a href=""><img src="assets/img/SPIDERMAN.png">
-                    <p>R$ 195,00 à vista<br> ou em 5X
+                <img [src]=jogo.imagem alt=SPIDERMAN.">
+                    <p>{{jogo.titulo}}R$ 195,00 à vista<br> ou em 5X
                     </p>
                 </a>
-                <a href=""><img src="assets/img/NBA.png" height="230px">
-                    <p>R$ 182,00 à vista<br> ou em 5X
+                <img [src]=jogo.imagem alt=NBA" height="230px">
+                    <p>{{jogo.titulo}}R$ 182,00 à vista<br> ou em 5X
                     </p>
                 </a>
-                <a href=""><img src="assets/img/CODPS5.png" height="230px">
-                    <p>R$ 195,00 à vista<br> ou em 5X
+                <img [src]=jogo.imagem alt="CODPS5" height="230px">
+                    <p>{{jogo.titulo}}R$ 195,00 à vista<br> ou em 5X
                     </p>
                 </a>
-                <a href=""><img src="assets/img/HALO.png" height="230px">
-                    <p>R$ 185,00 à vista<br> ou em 5X
+                <img [src]=jogo.imagem alt="HALO.png" height="230px">
+                    <p>{{jogo.titulo}}R$ 185,00 à vista<br> ou em 5X
                     </p>
                 </a>
 
